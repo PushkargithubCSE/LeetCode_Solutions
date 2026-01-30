@@ -14,4 +14,5 @@ class Solution:
             else:
                 backtrack(index+1, path+s[index])
         backtrack(0,"")
+        
         return result
